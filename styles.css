@@ -1,0 +1,643 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap';
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+}
+
+@media (max-width:450px) {
+    body{
+        font-size: 1rem;
+        top:0;
+        left:0;
+        margin: 0;  
+    }
+    .header{
+        display:block;
+        height: 70vh;
+        background-color:#F6F6F6;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .name-icons{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-right:0;
+        padding-right: 0;
+        margin-bottom: 10%;
+    }
+    .name {
+        margin-left: 8%;
+        padding-right: 20%;
+        font-size: 26px;
+        color:#343a4f;
+        padding-top: 15px;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right:0;
+        padding-right: 0;
+    }
+
+    .icon{
+        width: 24px;
+        height:24px;
+        padding: 20%;
+    }
+
+    .navbar > ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }    
+    
+    .navbar li{
+        width: 100%;
+        height: 20%;
+        list-style: none;
+        color:#747474;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .background{
+        opacity: 55%;
+        height: 160vh;
+        width: 100%;
+    }
+
+    .about{
+        display:flex;
+        background-image: url("imagens/FUNDO.jpg");
+        width: 100%;
+        height: 163vh;
+        background-size: 500px 163vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        margin:0;
+        padding: 20% 7% 0 7%;
+        font-size: 2.5rem;
+        text-align: center;
+        color:#282c44;
+        line-height: 4rem;
+    }
+
+    .about p{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        color: #747474;
+        font-weight: 600;
+    }
+
+    .quote{
+        background-color: #ff7b47;
+        color: white;
+        border: 1px solid #ff7b47;
+        height: 50px;
+        width:200px;
+        border-radius: 50px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+    }
+
+    .learn_more{
+        height: 50px;
+        width:170px;
+        border-radius: 50px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        background: none;
+        color:#0d5c63;
+        border: 2px solid #0d5c63;
+        margin: 25px 0 100px 0;
+    }
+
+    .book{
+        background-color: white;
+        border-radius: 10px;
+        width:350px;
+        text-align: center;
+    }
+
+    .book > h2{
+        color:#282c44;
+        margin-top: 50px;
+    }
+
+    label{
+        display: block;
+        text-align: left;
+        margin-left:10%;
+        color:#282c44;
+        font-weight: 600;
+    }
+
+    input{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        margin:10px auto;
+        width: 78%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #c0bcbc; 
+        padding-left:10%;
+        font-size: 15px;
+
+    }
+
+    select{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        margin:10px auto;
+        width: 90%;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #c0bcbc; 
+        padding-left:10%;
+        font-size: 15px;
+    }
+
+    select:invalid{
+        color:rgba(115,115,115,255);
+    }
+    
+    .book_appointment_btn{
+        background-color: #ff7c44;
+        border: 1px solid #ff7c44;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        border-radius: 5px;
+        width: 82%;
+        height: 50px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .industry{
+        height: 175vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    p{
+        font-size: 18px;
+        text-align: center;
+        padding: 20px 15%;
+        color: #747474;
+    } 
+
+    .product{
+        border: 1px solid rgba(217,237,255,255);
+        border-radius: 10px;
+        background-color: rgba(217,237,255,255);
+        width: 350px;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .consumer_product{
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    h3{
+        width: 62%;
+        margin-top: 40px;
+        color: rgba(37,43,66,255);
+    }
+
+    .description{
+        border-radius: 10px;
+        background-color:white;
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 15%;
+    }
+
+    .description > p{
+        font-weight: 600;
+    }
+
+    .product ul{
+        list-style-type: " - ";
+        color:rgba(115,115,115,255);
+        padding: 0;
+        font-weight: 600;
+        line-height: 30px;
+        margin: 30px 15px 5px 10px;
+        font-size: 15px;
+    }
+
+    .product p{
+        color:rgba(255,123,71,255);
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .environmental{
+        height: 50px;
+        width: 50px;
+        margin: 20px 3% 0 20%;
+    }
+
+    .save_money_and_time{
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+
+    .who_we_are{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(243,243,243,255) 60%, rgba(12,17,30,255) 40%);
+    }
+
+    .video{
+        margin-top: 40px;
+        width: 75%;
+        height: 400px;
+    }
+
+    .what_clients_say{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 140vh;
+        background-color: rgba(243,243,243,255);
+    }
+
+    .review{
+        width: 80%;
+        height: 240px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgba(222,222,222,255); 
+        margin-top: 20px;
+    }
+    .what_clients_say p {
+        padding: 20px 15%;
+    }   
+
+    .avaliacao{
+        margin: 20px 10%;
+        display: flex;
+        
+    }
+
+    .star{
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+    }
+    .comentario{
+        margin:0 10%;
+    }
+
+    .comentario p{
+        margin:0;
+        text-align: left;
+        padding: 0;
+        font-size: 15px;
+        line-height: 25px;
+        height: 80px;
+        font-weight: 600;
+    }
+
+    .profile{
+        margin: 20px 10%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 60px;
+        width: 80%;
+    }
+
+    .pf_photo{
+        border-radius: 100%;
+        border: 1px solid rgba(189,189,189,255);
+        overflow: hidden;
+        height: 60px;
+        width: 60px;      
+    }
+    
+    .client_name{
+        width: 50%;
+        padding: 0 !important;
+        font-size: 15px;
+        text-align: left;
+        justify-content: center;
+        height: 25px;
+        margin: 5px 20% 0 0 ;
+        color:rgba(255,123,71,255);
+        font-weight: 600;
+    }
+    .role{
+        width: 50%;
+        padding:0 !important;
+        font-size: 15px;
+        text-align: left;
+        justify-content: center;
+        height: 30px;
+        margin: 0 20% 0 0 ;
+        color:rgba(37,43,66,255);
+        font-weight: 600;
+    }
+
+    .cl_photo{
+        width: 100%;
+        height: 100%;
+    }
+
+    .meet_our_team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 190vh;
+    }
+
+    .team{
+        width: 80%;
+        height: 380px;
+        border: 1px solid rgba(222,222,222,255);
+        margin: 20px;
+    }
+
+    .team_photo{
+        width: 100%;
+    }
+
+    .team_name{
+        color: rgba(37,43,66,255);
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0;
+        margin: 25px 0 10px 0;
+    }
+
+    .team_role{
+        font-size: 15px;
+        padding: 0;
+        margin: 10px 0 10px 0;
+        font-weight: 600;
+    }
+
+    .team_social_media{
+        display: flex;
+        width: 100%;
+        height: 25px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .team_social{
+        color:#0d5c63;
+        margin: 0 2%;
+    }
+
+    .make_an_appointment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+        background-color: rgba(243, 243, 243, 255);
+    }
+
+    .make_an_appointment h3{
+        width: 75%;
+        margin-top: 100px;
+        margin-bottom: 0;
+        text-align: left;
+
+    }
+
+    .make_an_appointment h1{
+        width:75%;
+        text-align: left;
+        padding: 0;
+    }
+
+    .form_appointment{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input_appointment{
+        width: 65%;
+        border: 1px solid rgba(189,189,189,255);
+    }
+
+    .input_appointment::placeholder{
+        color:rgba(189,189,189,255);
+    }
+
+    .select_appointment{
+        width: 76%;
+    }
+
+    
+    .select_appointment:invalid{
+        color:rgba(189,189,189,255);
+    }
+
+    .message{
+        border: 1px solid rgba(189,189,189,255);
+        border-radius: 5px;
+        margin-top: 10px;
+        width:75%;
+        height: 120px;
+    }
+
+    .message::placeholder{
+        padding-left:14%;
+        padding-top: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        margin:10px auto;
+        font-size: 15px;
+        color:rgba(189,189,189,255);
+    }
+
+    .size{
+        width: 77%;
+        height: 60px;
+    }
+
+    .contact_us{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_us h2{ 
+        color: rgba(37,43,66,255);
+        width: 60%;
+    }
+
+    .contact_us p{
+        text-align: left;
+        width: 60%;
+        padding: 0;
+        margin-top: 0;
+        font-weight: 600;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        height: 140vh;
+        background-color: rgba(37,43,66,255);
+    }
+
+    .publist{
+        color:white;
+        font-size: 23px;
+        margin: 50px 0 50px 10%;
+        padding:0;
+        width:50%;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .company_social_media{
+        margin:0 0 50px 10%;
+
+    }
+
+    .facebook{
+        padding: 0 2% 0 0;
+        color:rgba(51,91,245,255);
+    }
+
+    .instagram{
+        padding: 0 2%;
+        color:rgba(229,31,90,255);
+    }
+
+    .twitter{
+        padding: 0 2%;
+        color:rgba(33,166,223,255);
+    }
+
+    .youtube{
+        padding: 0 2%;
+        color:rgba(228,47,8,255);
+    }
+
+    .info h4{
+        color:white;
+        margin:15px 0 0 10% ;
+    }
+
+    .info ul{
+        list-style: none;
+        color:white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .info li{
+        height: 15px;
+        padding: 10px 0;
+    }
+
+    .touch_btn{
+        margin: 0 10%;
+        width: 80%;
+        display:flex;
+        justify-content: center;
+    }
+
+    .touch{
+        width:65%;
+        height:55px;
+        border:1px solid white;
+        border-radius: 5px 0 0 5px;
+        padding:0;
+    }
+
+    .subscribe{
+        width:35%;
+        border:1px solid white;
+        border-radius: 0 5px 5px 0;
+        height:57px;
+        background-color:rgba(255,123,71,255);
+        color:white;
+        text-align: center;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size:15px;
+        margin:10px 0;
+    }
+
+    .text{
+        font-size: 12px;
+        color: white;
+        text-align: left;
+        font-weight: 500;
+        width: 80%;
+        padding: 0;
+        margin:0 10%;
+    }
+    .right{
+        width: 100%;
+        height:8vh;
+        background-color: rgba(23,33,60,255);
+        padding-top:4vh;
+        
+    }
+    .right > p{
+        padding: 0;
+        margin: 0 auto;
+        width:53%;
+        color:white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
