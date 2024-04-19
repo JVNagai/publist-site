@@ -435,7 +435,7 @@ body{
         align-items: center;
         width: 100%;
         height: 900px;
-        background-color: rgba(243, 243, 243, 255);
+        background-image: url('/imagens/fundo2.jpg')
     }
 
     .make_an_appointment h3{
@@ -507,7 +507,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-image: url('/imagens/fundo2copia.jpg');
+        background-color: white;
     }
 
     .contact_us h2{ 
