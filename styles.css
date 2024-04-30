@@ -423,6 +423,8 @@ h3{
 
 .video{
     width: 75%;
+    height: 720px;
+    border: 0px;
 }
 
 @media(max-width:768px){
@@ -969,14 +971,15 @@ h3{
     }
 }
 
-.right > p{
+.right > h6{
     padding: 0;
     color:white;
     font-weight: 600;
+    text-align: center;
 }
 
 @media(max-width:768px){
-    .right > p{
+    .right > h6{
         margin: 0 auto;
         width:53%;
         font-size: 14px;
