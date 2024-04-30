@@ -70,7 +70,6 @@ body{
     .icon{
         width: 24px;
         height:24px;
-        padding: auto 20%;
     }
 }
 
@@ -259,7 +258,7 @@ select{
 }
 
 select:invalid{
-    color:rgba(115,115,115,255);
+    color:rgba(115,115,115,1.0);
 }
     
 .book_appointment_btn{
@@ -308,9 +307,9 @@ p{
 }
 
 .product{
-    border: 1px solid rgba(217,237,255,255);
+    border: 1px solid rgba(217,237,255,1.0);
     border-radius: 10px;
-    background-color: rgba(217,237,255,255);
+    background-color: rgba(217,237,255,1.0);
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -335,7 +334,7 @@ p{
 }
 
 h3{
-    color: rgba(37,43,66,255);
+    color: rgba(37,43,66,1.0);
     margin-top: 40px;
 }
 
@@ -364,7 +363,7 @@ h3{
 
 .product ul{
     list-style-type: " - ";
-    color:rgba(115,115,115,255);
+    color:rgba(115,115,115,1.0);
     font-weight: 600;
 }
 
@@ -378,7 +377,7 @@ h3{
 }
 
 .product p{
-    color:rgba(255,123,71,255);
+    color:rgba(255,123,71,1.0);
     text-align: left;
     margin: 0;
     padding: 0;
@@ -412,7 +411,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgba(243,243,243,255) 60%, rgba(12,17,30,255) 40%);
+    background-image: linear-gradient(rgba(243,243,243,1.0) 60%, rgba(12,17,30,1.0) 40%);
 }
 
 @media(max-width:768px){
@@ -438,7 +437,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(243,243,243,255);
+    background-color: rgba(243,243,243,1.0);
 }
 
 @media(max-width:768px){
@@ -450,7 +449,7 @@ h3{
 .review{
     background-color: white;
     border-radius: 5px;
-    border: 1px solid rgba(222,222,222,255); 
+    border: 1px solid rgba(222,222,222,1.0); 
     margin-top: 20px;
 }
 
@@ -520,7 +519,7 @@ h3{
 
 .pf_photo{
     border-radius: 100%;
-    border: 1px solid rgba(189,189,189,255);
+    border: 1px solid rgba(189,189,189,1.0);
     overflow: hidden;
 }
 
@@ -534,7 +533,7 @@ h3{
 .client_name{
     text-align: left;
     justify-content: center;
-    color:rgba(255,123,71,255);
+    color:rgba(255,123,71,1.0);
     font-weight: 600;
 }
 
@@ -551,7 +550,7 @@ h3{
 .role{
     text-align: left;
     justify-content: center;
-    color:rgba(37,43,66,255);
+    color:rgba(37,43,66,1.0);
     font-weight: 600;
 }
 
@@ -586,7 +585,7 @@ h3{
 }
 
 .team{
-    border: 1px solid rgba(222,222,222,255);
+    border: 1px solid rgba(222,222,222,1.0);
 }
 
 @media(max-width:768px){
@@ -605,7 +604,7 @@ h3{
 }
 
 .team_name{
-    color: rgba(37,43,66,255);
+    color: rgba(37,43,66,1.0);
     font-weight: 700;
     padding: 0;
 }
@@ -695,7 +694,7 @@ h3{
 }
 
 .input_appointment{
-    border: 1px solid rgba(189,189,189,255);
+    border: 1px solid rgba(189,189,189,1.0);
 }
 
 @media(max-width:768px){
@@ -705,7 +704,7 @@ h3{
 }
 
 .input_appointment::placeholder{
-    color:rgba(189,189,189,255);
+    color:rgba(189,189,189,1.0);
 }
 @media(max-width:768px){
     .select_appointment{
@@ -714,11 +713,11 @@ h3{
 }
     
 .select_appointment:invalid{
-    color:rgba(189,189,189,255);
+    color:rgba(189,189,189,1.0);
 }
 
 .message{
-    border: 1px solid rgba(189,189,189,255);
+    border: 1px solid rgba(189,189,189,1.0);
     border-radius: 5px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -733,7 +732,7 @@ h3{
 }
 
 .message::placeholder{
-    color:rgba(189,189,189,255);
+    color:rgba(189,189,189,1.0);
 }
 
 @media(max-width:768px){
@@ -768,7 +767,7 @@ h3{
 }
 
 .contact_us h2{ 
-    color: rgba(37,43,66,255);
+    color: rgba(37,43,66,1.0);
 }
 
 @media(max-width:768px){
@@ -794,7 +793,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    background-color: rgba(37,43,66,255);
+    background-color: rgba(37,43,66,1.0);
 }
 
 @media(max-width:768px){
@@ -825,7 +824,7 @@ h3{
 }
 
 .facebook{
-    color:rgba(51,91,245,255);
+    color:rgba(51,91,245,1.0);
 }
 
 @media(max-width:768px){
@@ -835,7 +834,7 @@ h3{
 }
 
 .instagram{
-    color:rgba(229,31,90,255);
+    color:rgba(229,31,90,1.0);
 }
 
 @media(max-width:768px){
@@ -845,7 +844,7 @@ h3{
 }
 
 .twitter{
-    color:rgba(33,166,223,255);
+    color:rgba(33,166,223,1.0);
 }
 
 @media(max-width:768px){    
@@ -856,7 +855,7 @@ h3{
 } 
 
 .youtube{
-    color:rgba(228,47,8,255);
+    color:rgba(228,47,8,1.0);
 }
 
 @media(max-width:768px){
@@ -926,7 +925,7 @@ h3{
 .subscribe{
     border:1px solid white;
     border-radius: 0 5px 5px 0;
-    background-color:rgba(255,123,71,255);
+    background-color:rgba(255,123,71,1.0);
     color:white;
     text-align: center;
     padding: 0;
@@ -960,7 +959,7 @@ h3{
 
 .right{
     width: 100%;
-    background-color: rgba(23,33,60,255);
+    background-color: rgba(23,33,60,1.0);
 }
 
 @media(max-width:768px){
